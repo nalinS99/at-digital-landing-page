@@ -6,8 +6,8 @@ function Footer() {
     <>
       <div
         className="bg-primary text-white 
-                    xs:p-[20px] xs:h-[640px] 
-                    md:px-[40px] md:h-[470px]
+                    xs:p-[20px]  
+                    md:px-[40px] 
                     xl2:px-[60px] xl2:h-[300px]
                     xl3:px-[80px] xl3:h-[300px]
                     "
