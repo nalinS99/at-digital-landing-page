@@ -2,7 +2,7 @@ import React from "react";
 
 function FAQs() {
   return (
-    <>
+    
       <div
         className=" xs:my-[60px] 
                     md:my-[60px] md:mx-[42px]
@@ -63,7 +63,7 @@ function FAQs() {
           </div>
         </div>
       </div>
-    </>
+    
   );
 }
 

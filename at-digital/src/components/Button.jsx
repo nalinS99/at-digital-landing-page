@@ -1,13 +1,13 @@
-import React from "react";
+import React, { memo } from "react";
 
-function Button({ name }) {
+const Button= memo(({ name }) => {
   return (
-    <>
-      <button className="bg-secondary text-white px-[20px] py-[12px] rounded-[4px] tex-[14px] leading-[14px] font-bold">
+  
+      <button className="bg-secondary text-white px-[20px] py-[12px] rounded-[4px] text-[14px] leading-[14px] font-bold">
         {name}
       </button>
-    </>
+    
   );
-}
+});
 
 export default Button;

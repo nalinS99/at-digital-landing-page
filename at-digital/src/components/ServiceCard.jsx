@@ -1,14 +1,14 @@
-import React from "react";
+import React, { memo } from "react";
 import Button from "./Button";
 
-function ServiceCard({ url, title, description, reverse }) {
+const ServiceCard = memo(({ url, title, description, reverse }) => {
   return (
     <>
       <div
         className="place-items-center xs:my-[60px] xs:mx-[20px]
                    md:grid md:grid-cols-3 md:mx-[20px] 
                    xl2:mt-[80px] xl2:mx-[152px]
-                   xl3:mt-[80px] xl3:mx[180px] "
+                   xl3:mt-[80px] xl3:mx[180px]"
       >
         <div className={reverse ? "order-last " : "order-first "}>
           <img
@@ -41,5 +41,5 @@ function ServiceCard({ url, title, description, reverse }) {
     </>
   );
 }
-
+);
 export default ServiceCard;
