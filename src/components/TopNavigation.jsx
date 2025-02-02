@@ -25,7 +25,7 @@ function TopNavigation() {
         />
 
         <div>
-          <ul className="hidden md:flex text-white  font-[14px] my-[10px] leading-[16px]  ">
+          <ul className="hidden md:flex text-white  font-[14px] my-[18px] leading-[16px]  ">
             <li>
               <a href="#" className="pr-[28px] ">
                 SERVICES
