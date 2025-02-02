@@ -15,5 +15,5 @@ At Digital is a responsive, visually appealing website.The website is built usin
 To run this project locally, follow the steps below:
 1. Clone the repository: git clone https://github.com/your-username/at-digital-web-page.git
 2. Navigate to the project folder:cd at-digital-web-page
-3.Install dependencies:npm install
-4.Start the development server: npm run dev
+3. Install dependencies: npm install
+4. Start the development server: npm run dev
